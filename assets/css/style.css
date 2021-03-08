@@ -1,0 +1,303 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #0f8ca8;
+}
+
+.nav__logo {
+  font-size: 2.3rem;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__item {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+.menu__item:hover {
+  font-weight: bold;
+}
+
+.principal {
+  padding-top: 60px;
+  background: rgba(201, 206, 210, 0.5);
+  border-bottom-left-radius: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.content__title {
+  margin-bottom: 100px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 125px;
+  color: #000000;
+}
+
+.subtitle {
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 24px;
+  color: #333333;
+}
+
+
+
+.button__game {
+  margin: 20px 0 0 10px;
+  background: #f69038;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  max-width: 250px;
+  outline: none;
+}
+
+.button__game:hover {
+  background: #da7116;
+}
+
+.main {
+  padding: 32px 0;
+  width: 80%;
+}
+
+.about__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+  padding-bottom: 32px;
+}
+
+.about__list {
+  padding-left: 2rem;
+}
+
+.about__paragraph,
+li {
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 16px;
+}
+
+.explication_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.explication,
+.explication_img {
+  flex: 1;
+  padding-right: 8px;
+}
+
+.explication_img img {
+  width: 80%;
+  margin-left: 2rem;
+}
+
+.footer {
+  background: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 72px;
+    line-height: 90px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .illustration {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: -2px;
+  }
+
+  .explication_container {
+    flex-direction: column;
+  }
+  .explication_img img {
+    height: 400px;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .illustration {
+    display: none;
+  }
+
+  .principal {
+    justify-content: center;
+  }
+  .explication_img img {
+    height: 290px;
+  }
+
+  .container {
+    max-width: 680px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .explication_img img {
+    width: 100%;
+    margin-left: 0rem;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .illustration {
+    display: none;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .nav {
+    flex-direction: column;
+    padding: 16px 0;
+  }
+
+  .menu {
+    margin-top: 15px;
+  }
+
+  .principal {
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 0;
+    padding-top: 40px;
+  }
+
+  .content__title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .subtitle {
+    padding-left: 0;
+  }
+
+  .explication_img img {
+    height: 200px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .about__list {
+    padding-left: 1rem;
+  }
+
+  .button__game {
+    margin: 0;
+    margin-top: 30px;
+    max-width: 230px;
+  }
+
+  .title {
+    font-size: 60px;
+    line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .illustration {
+    display: none;
+  }
+
+  .title {
+    font-size: 50px;
+    line-height: 71px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .button__game {
+    margin: 0;
+    margin-top: 15px;
+    max-width: 230px;
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Play</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/game.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Nav -->
+      <nav class="nav">
+        <a href="index.html" class="nav__logo">Eccola</a>
+        <ul class="menu">
+          <li class="menu__item"><a href="index.html">Home</a></li>
+          <li class="menu__item"><a href="index.html#about">About</a></li>
+          <li class="menu__item"><a href="game.html">Game</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Cards -->
+    <main>
+      <div class="container__game container">
+        <h1 id="game__title">Select cards</h1>
+      </div>
+      <section class="container__options container">
+        <div class="container__filters">
+          <label for="filterCards" class="filter__paragraph">Filters:</label>
+          <select name="filterCards" id="filterCards">
+            <option value="all">All</option>
+            <option value="Analyze">Analyze</option>
+            <option value="Transparency">Transparency</option>
+            <option value="Safety & Security">Safety & Security</option>
+            <option value="Fairness">Fairness</option>
+            <option value="Data">Data</option>
+            <option value="Agency & Oversight">Agency & Oversight</option>
+            <option value="Wellbeing">Wellbeing</option>
+            <option value="Accountability">Accountability</option>
+          </select>
+        </div>
+        <div>
+          <button id="result" class="btn__compare">compare cards</button>
+          <button id="start" class="btn__start">start again</button>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="container__alert">
+          <!-- alerta quando a pessoa não seleciona pelo menos dois cards -->
+          <p class="alert">select at least two cards</p>
+        </div>
+        <!-- onde é criado os cards -->
+        <div class="cards"></div>
+      </section>
+    </main>
+    <script src="./assets/js/infosCards.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

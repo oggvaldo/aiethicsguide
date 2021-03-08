@@ -1,0 +1,236 @@
+li {
+  padding: 0;
+  padding-left: 8px;
+  margin: 0;
+  font-size: 14px;
+}
+
+#game__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+  margin-top: 24px;
+}
+
+.filter__paragraph {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 26px;
+  margin-right: 16px;
+  color: #000000;
+}
+
+.btn__filter {
+  border: none;
+  background: #c4c4c4;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.container__game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px auto;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.btn__compare,
+.btn__start {
+  background: #f69038;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  border: none;
+  outline: none;
+}
+
+.btn__compare,
+.btn__start:hover{
+  background: #da7116;
+}
+
+.btn__compare:disabled{
+  opacity: 0.5;
+}
+
+/* .btn__start {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+} */
+
+.analyze {
+  background-color: #18224c;
+}
+
+.transparency {
+  background-color: #c08ec1;
+}
+
+.safety-security {
+  background-color: #92c192;
+}
+
+.fairness {
+  background-color: #f3bf60;
+}
+
+.data {
+  background-color: #6393c7;
+}
+
+.agency-oversight {
+  background-color: #5aaead;
+}
+
+.wellbeing {
+  background-color: #f08d53;
+}
+
+.accountability {
+  background-color: #d76f66;
+}
+
+.cards__top {
+  margin-top: 32px;
+}
+
+.cards,
+.cards__result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container__alert{
+  display: flex;
+  justify-content: center;
+}
+
+.alert{
+  display: none;
+  font-size: 1rem;
+  color: red;
+}
+
+.card {
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+
+.card__header {
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card__title {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.card__badge {
+  background-color: white;
+  border-radius: 12px;
+  padding: 8px 16px;
+  display: inline-flex;
+}
+
+.card__body {
+  border-top: none;
+  padding-top: 20px;
+  padding: 20px 8px;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.active {
+  box-shadow: 0px 8px 8px #f69038;
+}
+
+.container__start{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__number,
+.card__title,
+.card__badge {
+  margin: 12px 0;
+}
+
+.card__number{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#start {
+  display: none;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 236px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .card {
+    width: 350px;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+  .btn__compare, .btn__start {
+    margin: 16px 0;
+  }
+  .container__options {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
