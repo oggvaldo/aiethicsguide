@@ -1,4 +1,4 @@
-# AIEthicsFramework
+# AIEthicsGuide
 AI Ethics card-game framework based on ECCOLA card game, for discussions related to AI Ethics using a planning poker based framework.
 
 
