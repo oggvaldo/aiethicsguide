@@ -13,8 +13,9 @@ const infosCards = [
       "Remember that a user is ofthen an organization and the end-user is an individual. Similarly, AI systems can treat people as objects for data colection.",
     ],
     praticalExample:
-      "Autonomous cars don't just affect their passengers. Anyone mearby is affected; some even change the way they drive. If at one point half of the traffic consists of selt-driving cars, what are the societal impacts of such systems? E.g., how are the people who can't afford one affected? Regulations arising from such systems are also affect everyone."
+      "Autonomous cars don't just affect their passengers. Anyone nearby is affected; some even change the way they drive. If at one point half of the traffic consists of selt-driving cars, what are the societal impacts of such systems? E.g., how are the people who can't afford one affected? Regulations arising from such systems are also affect everyone."
   },
+
   {
     number: "1",
     type: "Transparency",
@@ -31,6 +32,7 @@ const infosCards = [
     ],
     praticalExample: "",
   },
+
   {
     number: "2",
     type: "Transparency",
@@ -49,6 +51,7 @@ const infosCards = [
     praticalExample:
       'When interacting with a robot, users could ideally ask the robot "why did you do that?" and receive and understandable response. This would make it much easier for them to trust a system.',
   },
+
   {
     number: "3",
     type: "Transparency",
@@ -66,6 +69,7 @@ const infosCards = [
     praticalExample:
       "Clearly stating what data you collect and why can make you seem much more trustworthy. Compare this to a cellphone application that just states it needs to access your camera and storage.",
   },
+
   {
     number: "4",
     type: "Transparency",
@@ -80,6 +84,7 @@ const infosCards = [
     praticalExample:
       "Documenting trade-offs can improve your customer relationship, allowing you to better explain why certain decisions were amde over others. Moreover, it can reduce the responsability placed on the individual developer(s) from an ethical point of view.",
   },
+
   {
     number: "5",
     type: "Transparency",
@@ -95,6 +100,7 @@ const infosCards = [
     praticalExample:
       "Whe the system starts making mistakes, by aiming for traceability, it will be easier to find out the cause. Consequently, it will also be faster anf possibly easier to find out the cause. Consequently, it will also be faster and possibly easier to start fixing the underlying issue.",
   },
+
   {
     number: "6",
     type: "Transparency",
@@ -111,6 +117,7 @@ const infosCards = [
     praticalExample:
       "An autonomous coffee machine successfully brews coffee 8 times out 10. While this is a decent success rate, we are left wondering what happened the 2 times it failed to do so, and why. Erros are inevitable, but we must understand the causes behind them and be able to replicate them to fix them.",
   },
+
   {
     number: "7",
     type: "Data",
@@ -128,6 +135,7 @@ const infosCards = [
     praticalExample:
       "Rather than collection and selling data, appealling yo privacy can also be profitable. Regulations are making it increasingly difficult to collect lots of personal data for profit. Privacy can be an alternate selling point in today's climate.",
   },
+
   {
     number: "8",
     type: "Data",
@@ -145,6 +153,7 @@ const infosCards = [
     praticalExample:
       "In 2017, Amazon scrapped its recruitment AI because of bad data. They used past recruitment data to teach the AI. As they had mostly hired men, the AI began to consider women undesirable based on the data.",
   },
+
   {
     number: "9",
     type: "Data",
@@ -162,6 +171,7 @@ const infosCards = [
     praticalExample:
       "Third parties you give access to the data can misuse it. A prominent example of this is the case of Cambridge Analytica and Facebook, in which data from FAcebook was used questionably. However, such incidents can also paint your organization in a bad way.",
   },
+
   {
     number: "10",
     type: "Agency & Oversight",
@@ -177,6 +187,7 @@ const infosCards = [
     praticalExample:
       "A medical system recommends diagnoses. How does the system communicate to doctors why it made a recommendation? How should the doctors know when to challenge the system? Does the system somehow change how patients and doctors interact?",
   },
+
   {
     number: "11",
     type: "Agency & Oversight",
@@ -192,6 +203,7 @@ const infosCards = [
     praticalExample:
       "Assuming control is especially related to cyber-physical systems such as drones or other vehicles. For purely digital systems, the focus should be on supporting human decision-making instead of directing it.",
   },
+
   {
     number: "12",
     type: "Safety & Security",
@@ -208,6 +220,7 @@ const infosCards = [
     praticalExample:
       "The autonomous nature of AI systems makes new vectos of attack possible. A white line drawn across a road can confuse a self-driving vehicle. What happened to Microsoft's Tay Twitter bot is another example of a new type of attack.",
   },
+
   {
     number: "13",
     type: "Safety & Security",
@@ -225,6 +238,7 @@ const infosCards = [
     praticalExample:
       "AI systems can aid automating various organizational tasks, making it possible to reduce personnel. However, if a customer organization becomes reliant on your AI system to handle a portion of its operations, what happens if that AI stops functioning for even a few days? What could you do to alleviate the impact?",
   },
+
   {
     number: "14",
     type: "Fairness",
@@ -243,6 +257,7 @@ const infosCards = [
     praticalExample:
       "AI tends to benefit those who are already technologically capable, resulting in increased inequality. E.g. most of the images used in machine learning have been labeled by young white men.",
   },
+
   {
     number: "15",
     type: "Fairness",
@@ -258,6 +273,7 @@ const infosCards = [
     praticalExample:
       "Often the people an AI system is used on are individuals who are simply objects for the system. For example, a medical system is developed for hospitals, used by doctors, but ultimately used on patients. Why not talk to the patients too?",
   },
+
   {
     number: "16",
     type: "Wellbeing",
@@ -273,6 +289,7 @@ const infosCards = [
     praticalExample:
       "If you are hosting on a third party cloud, try to ascertain the systainability of the service provider's services. If you are using hardware, are you processing the data in each physical device of your own or are you processing it in the cloud?",
   },
+
   {
     number: "17",
     type: "Wellbeing",
@@ -286,8 +303,9 @@ const infosCards = [
       "What kind of systemic effects could the system have?",
     ],
     praticalExample:
-      "Surveillance technology utilizing facial recognition AI has long=reaching impacts. People may wish to avoid areas that utilize such surveillance, negatively affecting businesses in said area. People may become stressed  at the mere thought of such surveillance. Some may even emigrate as a result.",
+      "Surveillance technology utilizing facial recognition AI has long-reaching impacts. People may wish to avoid areas that utilize such surveillance, negatively affecting businesses in said area. People may become stressed  at the mere thought of such surveillance. Some may even emigrate as a result.",
   },
+
   {
     number: "18",
     type: "Accountability",
@@ -304,6 +322,7 @@ const infosCards = [
     praticalExample:
       "In heavily regulated fields such as medicine, audits are typically required before a system can be utilized in the first place. ",
   },
+
   {
     number: "19",
     type: "Accountability",
@@ -319,6 +338,7 @@ const infosCards = [
     praticalExample:
       "AI systems can inconvenience users in unforeseen, unpredictable ways. Depending on the situation, the company may or may not be legally responsible for the inconvenience. Noetheless, by offering a digital platform for seeking refress, your company can seem more trustworthy while also offering additional value to your users.",
   },
+
   {
     number: "20",
     type: "Accountability",
@@ -337,6 +357,46 @@ const infosCards = [
       "  With whom have you discused accountability and other ethical?",
     ],
     praticalExample: "",
+    links: ""
   },
   
+  {
+    number: "21",
+    type: "Trustworthiness",
+    title: "Lorem Ipsum",
+    motivation:
+      "Lorem Ipsum Sit Dolor Amet.",
+    whatToDo: [
+      "Lorem:",
+      "Ipsum",
+      "Sit",
+      "Dolor",
+      "Amet",
+    ],
+    praticalExample: "How to prepare pudim",
+    links: [
+      {
+        descricao: 'Pudim',
+        link: 'http://www.pudim.com.br'
+      },
+    ]
+  },
+
+  {
+    number: "22",
+    type: "Trustworthiness",
+    title: "Lorem Ipsum",
+    motivation:
+      "Lorem Ipsum Sit Dolor Amet.",
+    whatToDo: [
+      "Lorem:",
+      "Ipsum",
+      "Sit",
+      "Dolor",
+      "Amet",
+    ],
+    praticalExample: "How to prepare pudim",
+    links: ""
+  },
+
 ];

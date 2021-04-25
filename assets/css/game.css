@@ -110,6 +110,10 @@ li {
   background-color: #d76f66;
 }
 
+.trustworthiness{
+  background-color: #31e221;
+}
+
 .cards__top {
   margin-top: 32px;
 }
