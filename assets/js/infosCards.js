@@ -89,7 +89,7 @@ const infosCards = [
 
   {
     number: "5",
-    type: "Template 5",
+    type: "Template5",
     title: "Lorem Ipsum",
     motivation:
       "Lorem Ipsum Sit Dolor Amet.",
@@ -111,7 +111,7 @@ const infosCards = [
 
   {
     number: "6",
-    type: "Template 6",
+    type: "Template6",
     title: "Lorem Ipsum",
     motivation:
       "Lorem Ipsum Sit Dolor Amet.",
@@ -177,7 +177,7 @@ const infosCards = [
 
   {
     number: "9",
-    type: "Template 9",
+    type: "Template9",
     title: "Lorem Ipsum",
     motivation:
       "Lorem Ipsum Sit Dolor Amet.",
@@ -199,7 +199,7 @@ const infosCards = [
 
   {
     number: "10",
-    type: "Template 10",
+    type: "Template10",
     title: "Lorem Ipsum",
     motivation:
       "Lorem Ipsum Sit Dolor Amet.",
@@ -221,7 +221,7 @@ const infosCards = [
 
   {
     number: "11",
-    type: "Template 11",
+    type: "Template11",
     title: "Lorem Ipsum",
     motivation:
       "Lorem Ipsum Sit Dolor Amet.",
