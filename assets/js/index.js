@@ -63,12 +63,12 @@ const filterCards = (array, type) => {
 
 // Função que formata a classes de CSS
 const formatClasse = (type) => {
-  if (type === "Safety & Security") {
-    return "safety-security";
+  if (type === "Template 3 & Template 4") {
+    return "template3-template4";
   }
 
-  if (type === "Agency & Oversight") {
-    return "agency-oversight";
+  if (type === "Template 7 & Template 8") {
+    return "template7-template8";
   }
 
   return type.toLowerCase();
@@ -114,11 +114,11 @@ const createCards = (infos) => {
     </div>
     <div class="card__body">
       <p>
-        <span class="strong">Motivation: </span>${actual.motivation}
+        <span class="strong">Issue: </span>${actual.motivation}
       </p>
       <br>
       <ul>
-        <span class="strong">What to Do:</span> 
+        <span class="strong">How to think:</span> 
         <br>
         ${templateList(actual.whatToDo)}
       </ul>
@@ -126,14 +126,14 @@ const createCards = (infos) => {
       <p>
         ${
           actual.praticalExample
-            ? `<span class="strong"> Practical Example:</span> ${actual.praticalExample} `
+            ? `<span class="strong"> Examples:</span> ${actual.praticalExample} `
             : ""
         }
       </p>
       <p>
       ${
         actual.links
-          ? `<p class="strong"> Ferramentas:</p> 
+          ? `<p class="strong"> Tool(s):</p> 
              <ul>
              ${templateListLink(actual.links)}
              </ul>
@@ -155,7 +155,7 @@ buttonResult.addEventListener("click", () => {
   const cards = document.querySelector(".cards");
 
   // Definir o mínimo de cartas a ser selecionado pelo guia
-  if (selectedCards.length >= 2) {
+  if (selectedCards.length >= 1) {
     cards.innerHTML = "";
     selectedCards.forEach((card) => {
       card.classList.remove("active");
